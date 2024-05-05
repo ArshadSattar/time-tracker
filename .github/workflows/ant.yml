@@ -22,4 +22,4 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: Build with maven
-      run: mvn -noinput -buildfile build.xml
+      run: mvn -clean -package build.xml
